@@ -14,7 +14,7 @@ Script files are stored in Godspeaker's *scripts* folder. If one does not exist,
 
 - Script files must have the **.lua** extension to be considered valid.
 - Your script file must begin with the following lines:
-  - ```Lua
+```Lua
 script_file = "my_file.lua"
 script_name = "My Script File"
 script_desc = "Adds a bunch of functionality I deem useful!"
