@@ -1,0 +1,2102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+    <HostPackage>
+        <Host autoClearCommandLineAfterSend="no" disableAutoCompletion="no" printCommand="no" USE_IRE_DRIVER_BUGFIX="yes" mUSE_FORCE_LF_AFTER_PROMPT="yes" mUSE_UNIX_EOL="no" mNoAntiAlias="no" mEchoLuaErrors="yes" mRawStreamDump="no" mIsLoggingTimestamps="no" mAlertOnNewData="yes" mFORCE_NO_COMPRESSION="no" mFORCE_GA_OFF="no" mFORCE_SAVE_ON_EXIT="no" mEnableGMCP="yes" mEnableMSDP="no" mMapStrongHighlight="no" mLogStatus="no" mEnableSpellCheck="yes" mShowInfo="no" mAcceptServerGUI="yes" mMapperUseAntiAlias="yes" mFORCE_MXP_NEGOTIATION_OFF="no" mRoomSize="0.5" mLineSize="10.0" mBubbleMode="no" mShowRoomIDs="no" mShowPanel="yes" mHaveMapperScript="no" mEditorTheme="Bluloco Dark" mEditorThemeFile="bluloco-dark.tmTheme" mThemePreviewItemID="1" mThemePreviewType="script" mDoubleClickIgnore="&quot;'">
+            <name>Godspeaker</name>
+            <mInstalledPackages>
+                <string>mudlet-mapper</string>
+                <string>deleteOldProfiles</string>
+                <string>echo</string>
+                <string>run-lua-code-v4</string>
+                <string>movement</string>
+                <string>shortcuts</string>
+            </mInstalledPackages>
+            <url>aetolia.com</url>
+            <serverPackageName>nothing</serverPackageName>
+            <serverPackageVersion>-1</serverPackageVersion>
+            <port>23</port>
+            <borderTopHeight>0</borderTopHeight>
+            <borderBottomHeight>0</borderBottomHeight>
+            <borderLeftWidth>0</borderLeftWidth>
+            <borderRightWidth>0</borderRightWidth>
+            <wrapAt>100</wrapAt>
+            <wrapIndentCount>0</wrapIndentCount>
+            <mFgColor>#c0c0c0</mFgColor>
+            <mBgColor>#000000</mBgColor>
+            <mCommandFgColor>#717100</mCommandFgColor>
+            <mCommandBgColor>#000000</mCommandBgColor>
+            <mCommandLineFgColor>#808080</mCommandLineFgColor>
+            <mCommandLineBgColor>#000000</mCommandLineBgColor>
+            <mBlack>#000000</mBlack>
+            <mLightBlack>#808080</mLightBlack>
+            <mRed>#800000</mRed>
+            <mLightRed>#ff0000</mLightRed>
+            <mBlue>#000080</mBlue>
+            <mLightBlue>#0055ff</mLightBlue>
+            <mGreen>#008000</mGreen>
+            <mLightGreen>#00ff00</mLightGreen>
+            <mYellow>#808000</mYellow>
+            <mLightYellow>#ffff00</mLightYellow>
+            <mCyan>#008080</mCyan>
+            <mLightCyan>#00ffff</mLightCyan>
+            <mMagenta>#800080</mMagenta>
+            <mLightMagenta>#ff00ff</mLightMagenta>
+            <mWhite>#c0c0c0</mWhite>
+            <mLightWhite>#ffffff</mLightWhite>
+            <mDisplayFont>Albedi (TTF) for Windows,9,-1,5,50,0,0,0,1,0</mDisplayFont>
+            <mCommandLineFont>Bitstream Vera Sans Mono,10,-1,5,50,0,0,0,0,0</mCommandLineFont>
+            <mCommandSeparator>;;</mCommandSeparator>
+            <commandLineMinimumHeight>30</commandLineMinimumHeight>
+            <mFgColor2>#c0c0c0</mFgColor2>
+            <mBgColor2>#000000</mBgColor2>
+            <mBlack2>#000000</mBlack2>
+            <mLightBlack2>#808080</mLightBlack2>
+            <mRed2>#800000</mRed2>
+            <mLightRed2>#ff0000</mLightRed2>
+            <mBlue2>#000080</mBlue2>
+            <mLightBlue2>#0055ff</mLightBlue2>
+            <mGreen2>#008000</mGreen2>
+            <mLightGreen2>#00ff00</mLightGreen2>
+            <mYellow2>#808000</mYellow2>
+            <mLightYellow2>#ffff00</mLightYellow2>
+            <mCyan2>#008080</mCyan2>
+            <mLightCyan2>#00ffff</mLightCyan2>
+            <mMagenta2>#800080</mMagenta2>
+            <mLightMagenta2>#ff00ff</mLightMagenta2>
+            <mWhite2>#c0c0c0</mWhite2>
+            <mLightWhite2>#ffffff</mLightWhite2>
+            <mSpellDic>en_US</mSpellDic>
+            <mLineSize>10.0</mLineSize>
+            <mRoomSize>0.5</mRoomSize>
+        </Host>
+    </HostPackage>
+    <TriggerPackage>
+        <TriggerGroup isActive="yes" isFolder="yes" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+            <name>Events</name>
+            <script></script>
+            <triggerType>0</triggerType>
+            <conditonLineDelta>0</conditonLineDelta>
+            <mStayOpen>0</mStayOpen>
+            <mCommand></mCommand>
+            <packageName></packageName>
+            <mFgColor>#ff0000</mFgColor>
+            <mBgColor>#ffff00</mBgColor>
+            <mSoundFile></mSoundFile>
+            <colorTriggerFgColor>#000000</colorTriggerFgColor>
+            <colorTriggerBgColor>#000000</colorTriggerBgColor>
+            <regexCodeList/>
+            <regexCodePropertyList/>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Prompt</name>
+                <script>raiseEvent(&quot;prompt&quot;)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>return isPrompt()</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>4</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Room Displayed</name>
+                <script>raiseEvent(&quot;room displayed&quot;)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>You see (?:a single exit|exits) leading .+$</string>
+                    <string>There are no obxious exits.</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                    <integer>0</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>City Focus Alert</name>
+                <script>local channel = matches[2]
+local focus_type = matches[3]
+local room = matches[4]
+
+raiseEvent(&quot;city focus alert&quot;, channel, focus_type, room)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^\((.+)\): A focus has appeared nearby a linked (shrine|monument) at (.+)\.$</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Tapped Lesser Leyline</name>
+                <script>raiseEvent(&quot;tapped lesser&quot;)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>A palpitating tremor resonates from the leylines as a lesser focal point is tapped for its energy.</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>3</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Killing Blow (Player)</name>
+                <script>local player = matches[2]
+
+raiseEvent(&quot;killing blow&quot;, &quot;player&quot;, player)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^You have slain (.+)\.$</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Killing Blow (Mob)</name>
+                <script>local mob = matches[2]
+
+raiseEvent(&quot;killing blow&quot;, &quot;mobile&quot;, mob)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^Having slain (.+), you retrieve the corpse\.$</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Insufficient Mana</name>
+                <script>raiseEvent(&quot;low mana&quot;)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>You do not have enough mana for that.</string>
+                    <string>Alas, your mana reserves are too low for that.</string>
+                    <string>You are lacking the mana to do that.</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                    <integer>3</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Invalid/No Target</name>
+                <script>local tar = matches[2]
+
+raiseEvent(&quot;no target found&quot;, tar)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^You can find no such target as '(.+)'\.$</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Cleared Bashing Room</name>
+                <script>raiseEvent(&quot;cleared bashing room&quot;)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^You can find no such target as '(.+)'\.$</string>
+                    <string>This location has been declared free of violence, by order of the Divine Ones.</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                    <integer>3</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Death</name>
+                <script>local killer = matches[2]
+
+raiseEvent(&quot;death&quot;, killer)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^You have been slain by (.+)\.$</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Player Prone</name>
+                <script>local player = matches[2]
+
+raiseEvent(&quot;player prone&quot;, player)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^Losing (?:his|her) balance, (\w+) falls from (?:his|her) steed to the hard ground\.$</string>
+                    <string>^(?:\w+) knocks the legs out from under (\w+), sending (?:him|her) sprawling to the floor\.$</string>
+                    <string>^With a quick thrust from the butt end of (?:.+), (?:\w+) knocks (\w+) to the ground\.$</string>
+                    <string>^You knock the legs out from under (\w+) and send (?:him|her) sprawling\.$</string>
+                    <string>^(\w+) sits down\.$</string>
+                    <string>^(A cloaked figure) sits down\.$</string>
+                    <string>^(\w+)'s broken legs cause (?:him|her) to fall to the ground in a heap\.$</string>
+                    <string>^(\w+) leaps up in what is apparently an attempt at a graceful swan dive\. (?:He|She) smacks headfirst into the ground\.$</string>
+                    <string>^(\w+)'s legs give way as (?:his|her) (?:right|left) leg breaks\.$</string>
+                    <string>^You step into the attack on your (?:.+), grab (\w+) by the arm, and throw (?:him|her|it) violently to the ground\.$</string>
+                    <string>^Your foot slams into (\w+), knocking \w+ off \w+ feet\.$</string>
+                    <string>^The bola goes flying at (\w+)'s legs, entangling them in ropes and tripping (?:him|her|it) up, before returning back to its owner\.$</string>
+                    <string>^(\w+) is swept off (?:his|her|its) feet by the blast\.$</string>
+                    <string>^Brandishing .+ \w+ (?:slam|slams) into (\w+), throwing (?:him|her|it) to the ground\.$</string>
+                    <string>^(\w+) is blasted backward as \w+ wills an expulsion of energy from (?:his|her|its) staff, the blow knocking (?:him|her|it) to the ground\.$</string>
+                    <string>^A pair of vines suddenly lashes out from the undergrowth to entangle (\w+)\.$</string>
+                    <string>^\w+ lifts (\w+) easily, swinging (?:his|her|its) body before smashing (?:him|her|it) to the ground\.$</string>
+                    <string>^\w+ lifts (\w+) triumphantly into the air, then yanks (?:him|her|it) down into (?:his|her|its) raised knee with back breaking force\.$</string>
+                    <string>^\w+'s mount knocks (\w+) to the ground, (?:his|her|its) spear slicing into (?:his|her|its) flesh\.$</string>
+                    <string>^(\w+) leaps from (?:his|her|its) mount's back, soaring through the air to slam into (\w+)\.$</string>
+                    <string>^(\w+) rides in from the \w+, dragging (\w+) along in (?:his|her|its) jaws\.$</string>
+                    <string> ^(\w+)'s eyes close suddenly as (?:he|she|it) falls asleep\.$</string>
+                    <string>^(\w+) closes \w+ eyes, curls up into a ball and falls asleep\.$</string>
+                    <string>^(\w+) tumbles in from the .+\.$</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Player Unprone</name>
+                <script>local player = matches[2]
+
+raiseEvent(&quot;player unprone&quot;, player)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^(\w+) stands up and stretches (?:his|her) arms out wide\.$</string>
+                    <string>^Strange clicking comes from the lips of (\w+) as (?:she|he) kips up and back into the Scorpion stance\.$</string>
+                    <string>^With a fierce roar, (\w+) kips up into a pouncing stance\.$</string>
+                    <string>^With a loud screech, (\w+) kips up into a strange posture, a look of pure menace flashes in (?:his|her) eyes\.$</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Combat Message</name>
+                <script>selectString(matches[3], 1)
+if isAnsiFgColor(14) == false then
+	return
+end
+
+local caster = matches[2]
+local skill = matches[3]
+local target = matches[4]
+
+raiseEvent(&quot;combat message&quot;, caster, skill, target)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^(\w+) uses? (.+) on (.+)\.$</string>
+                    <string>^(\w+) uses? (.+)\.$</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Mob Drop</name>
+                <script>raiseEvent(&quot;mob drop&quot;, matches[2], matches[3])</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^(.+) tumbles out of the corpse of (.+)\.$</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Game Login</name>
+                <script>raiseEvent(&quot;login&quot;)</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>Password correct. Welcome to Aetolia\.$</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+            <Trigger isActive="yes" isFolder="no" isTempTrigger="no" isMultiline="no" isPerlSlashGOption="no" isColorizerTrigger="no" isFilterTrigger="no" isSoundTrigger="no" isColorTrigger="no" isColorTriggerFg="no" isColorTriggerBg="no">
+                <name>Cache Depleted</name>
+                <script>raiseEvent(&quot;cache depleted&quot;, matches[2])</script>
+                <triggerType>0</triggerType>
+                <conditonLineDelta>0</conditonLineDelta>
+                <mStayOpen>0</mStayOpen>
+                <mCommand></mCommand>
+                <packageName></packageName>
+                <mFgColor>#ff0000</mFgColor>
+                <mBgColor>#ffff00</mBgColor>
+                <mSoundFile></mSoundFile>
+                <colorTriggerFgColor>#000000</colorTriggerFgColor>
+                <colorTriggerBgColor>#000000</colorTriggerBgColor>
+                <regexCodeList>
+                    <string>^You have no (.+) stored in the cache.$</string>
+                </regexCodeList>
+                <regexCodePropertyList>
+                    <integer>1</integer>
+                </regexCodePropertyList>
+            </Trigger>
+        </TriggerGroup>
+    </TriggerPackage>
+    <TimerPackage>
+        <Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+            <name>Pulse</name>
+            <script>raiseEvent(&quot;pulse&quot;)</script>
+            <command></command>
+            <packageName></packageName>
+            <time>00:00:00.100</time>
+        </Timer>
+        <Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+            <name>Anti-AFK</name>
+            <script>sendGMCP(&quot;Core.KeepAlive&quot;)</script>
+            <command></command>
+            <packageName></packageName>
+            <time>00:01:00.000</time>
+        </Timer>
+        <Timer isActive="yes" isFolder="no" isTempTimer="no" isOffsetTimer="no">
+            <name>Latency Monitor</name>
+            <script>pingCount = pingCount or {}
+
+local ping = getNetworkLatency()
+
+if #pingCount &gt;= 10 then
+	table.remove(pingCount, 1)
+end
+
+table.insert(pingCount, ping)</script>
+            <command></command>
+            <packageName></packageName>
+            <time>00:00:00.500</time>
+        </Timer>
+    </TimerPackage>
+    <AliasPackage>
+        <AliasGroup isActive="yes" isFolder="yes">
+            <name>System Controls</name>
+            <script></script>
+            <command></command>
+            <packageName></packageName>
+            <regex></regex>
+            <Alias isActive="yes" isFolder="no">
+                <name>Open Profile Directory</name>
+                <script>os.execute([[start &quot;&quot; &quot;]] .. getMudletHomeDir() .. [[\&quot;]])</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^home\s?dir(?:ectory)?$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>Command-Line Lua Execution</name>
+                <script>local f, e = loadstring(&quot;return &quot; .. matches[2])
+if not f then
+	f, e = assert(loadstring(matches[2]))
+end
+
+local r = f()
+if r ~= nil then display(r) end</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^\/run (.*)$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>Display Lua Value</name>
+                <script>assert(loadstring(&quot;display(&quot; .. matches[2] .. &quot;)&quot;))()</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^\@(.+)$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>Toggle Debugging</name>
+                <script>if debugMode ~= true then
+	debugMode = true
+	notify(&quot;Debugging &lt;a_green&gt;activated&lt;a_grey&gt;.&quot;)
+else
+	debugMode = nil
+	notify(&quot;Debugging &lt;a_red&gt;deactivated&lt;a_grey&gt;.&quot;)
+end</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^debug(?:ing|)$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>Delete Old Profiles/Maps</name>
+                <script>deleteOldProfiles(matches[3], matches[2] == &quot;maps&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^delete old (profiles|maps)(?: (\d+))?$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>Parse as Game Text</name>
+                <script>local s = matches[2]
+
+s = string.gsub(s, &quot;%$&quot;, &quot;\n&quot;)
+feedTriggers(&quot;\n&quot; .. s .. &quot;\n&quot;)
+echo(&quot;\n&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^\/parse (.+)$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>Color Table Lookup</name>
+                <script>local count = 0
+notify(&quot;Matching Colors:&quot;)
+
+if matches[3] then
+	for k, v in pairs(color_table) do
+		if k:find(matches[3]) then
+			setFgColor(getRGB(k))
+
+			if count == 2 then
+				echo(k .. &quot;\n&quot;)
+				count = 0
+			else
+				echo(k .. string.space(25 - string.len(k)))
+				count = count + 1
+			end
+
+			resetFormat()
+		end
+	end
+else
+	for k,v in pairs(color_table) do
+		setFgColor(getRGB(k))
+
+		if count == 2 then
+			echo(k .. &quot;\n&quot;)
+			count = 0
+		else
+			echo(k .. string.space(25 - string.len(k)))
+			count = count + 1
+		end
+
+		resetFormat()
+	end
+end
+
+send(&quot;\n&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^colors(|\s(.+))$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>Character Table Lookup</name>
+                <script>local count = 0
+notify(&quot;System Characters&quot;)
+
+for i = 1, 255 do
+	if i % 4 == 0 then
+		echo(&quot;\n&quot;)
+	end
+
+	echo(string.jleft(i .. &quot;: &quot; .. string.char(i), 20))
+end
+send(&quot;\n&quot;)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^chars$</regex>
+            </Alias>
+        </AliasGroup>
+        <AliasGroup isActive="yes" isFolder="yes">
+            <name>Shortcuts</name>
+            <script></script>
+            <command></command>
+            <packageName></packageName>
+            <regex></regex>
+            <AliasGroup isActive="no" isFolder="yes">
+                <name>Building</name>
+                <script></script>
+                <command></command>
+                <packageName></packageName>
+                <regex></regex>
+                <Alias isActive="yes" isFolder="no">
+                    <name>Add Room Exit</name>
+                    <script>if not buildingBaseName then
+	notify(&quot;No basename specified! Use &lt;a_red&gt;.base &lt;a_grey&gt;to set it.&quot;)
+	return
+end
+
+sendAll(&quot;redit &quot; .. matches[2] .. &quot; add exit to &quot; .. buildingBaseName .. matches[3], &quot;map fill&quot;, false)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^\.rx (\w+) (\d+)$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>Create Room</name>
+                    <script>if matches[3] then
+	send(&quot;create room &quot; .. matches[3], false)
+else
+	send(&quot;create room&quot;, false)
+end
+send(&quot;map fill&quot;)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^\.rc(| (\w+))$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>Brief Description</name>
+                    <script>send(&quot;redit set brief_desc &quot; .. matches[2], false)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^\.rbd (.+)$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>Verbose Description</name>
+                    <script>send(&quot;redit set verbose_desc &quot; .. matches[2], false)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^\.rvd (.+)$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>Environment</name>
+                    <script>send(&quot;redit set environment &quot; .. matches[2], false)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^\.env (.+)$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>Set Basename</name>
+                    <script>buildingBaseName = matches[2]
+
+notify(&quot;Basename set to &lt;a_green&gt;&quot; .. buildingBaseName .. &quot;&lt;a_grey&gt;.&quot;)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^\.base (.+)$</regex>
+                </Alias>
+            </AliasGroup>
+            <AliasGroup isActive="yes" isFolder="yes">
+                <name>Movement/Direction</name>
+                <script></script>
+                <command></command>
+                <packageName></packageName>
+                <regex></regex>
+                <Alias isActive="no" isFolder="no">
+                    <name>City Unlock Move</name>
+                    <script>local dir = getProperDirection(matches[2])
+local oDir = getOppositeDirection(dir)
+
+sendStack(&quot;city unlock door &quot; ..dir,
+	&quot;open door &quot; .. dir,
+	dir,
+	&quot;close door &quot; .. oDir,
+	&quot;city lock door &quot; .. oDir)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^un (\w+)$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>Speedwalking</name>
+                    <script>local dest = matches[2]
+
+if dest == &quot;help&quot; or dest == &quot;list&quot; or dest == &quot;rooms&quot; then
+	raiseEvent(&quot;speedwalking list&quot;)
+else
+	raiseEvent(&quot;speedwalking waypoint&quot;, dest)
+end</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^goto (.+)$</regex>
+                </Alias>
+            </AliasGroup>
+            <AliasGroup isActive="yes" isFolder="yes">
+                <name>Communication</name>
+                <script></script>
+                <command></command>
+                <packageName></packageName>
+                <regex></regex>
+                <Alias isActive="yes" isFolder="no">
+                    <name>Improved Emoting</name>
+                    <script>if matches[2] == &quot;&quot; then
+	send(&quot;em &quot; .. matches[3], false)
+else
+	send(&quot;em \(&quot; .. matches[2] .. &quot;\) &quot; .. matches[3], false)
+end</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^(.*)\&lt;me\&gt;(.*)$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>Clantell</name>
+                    <script>local chan = matches[2]
+local msg = matches[3]
+
+if chan == &quot;parse&quot; or chan == &quot;run&quot; or chan == &quot;lol&quot; or chan == &quot;crafters&quot; then
+	if chan == &quot;lol&quot; then
+		send(matches[1], false)
+	elseif chan == &quot;crafters&quot; then
+		send(&quot;crafters &quot; .. msg, false)
+	end
+
+	return
+end
+
+send(&quot;clan &quot; .. chan .. &quot; tell &quot; .. msg, false)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^\/(\w+) (.+)$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>OOC Tell</name>
+                    <script>send(&quot;tell &quot; .. matches[2] .. &quot; // &quot; .. matches[3], false)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^ooc (\w+) (.+)$</regex>
+                </Alias>
+                <Alias isActive="yes" isFolder="no">
+                    <name>Leader Tell</name>
+                    <script>send(&quot;leadertell &quot; .. matches[2], false)</script>
+                    <command></command>
+                    <packageName></packageName>
+                    <regex>^ldt (.+)$</regex>
+                </Alias>
+            </AliasGroup>
+            <Alias isActive="yes" isFolder="no">
+                <name>Credits/Coins For Sale</name>
+                <script>if matches[2] == &quot;i&quot; then
+   send(&quot;ironcoins for sale&quot;, false)
+else
+   send(&quot;credits for sale&quot;, false)
+end</script>
+                <command>credits for sale</command>
+                <packageName></packageName>
+                <regex>^(i|c)fs$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>Tattoo Making</name>
+                <script>local target, type, limb
+
+target = matches[2]
+type = matches[3]
+limb = matches[4]
+
+for k,v in ipairs(aetolia.tattoos[type]) do
+	send(&quot;outc &quot; .. v .. &quot;ink&quot;, false)
+end
+
+send(&quot;ink &quot; .. type .. &quot; on &quot; .. limb .. &quot; of &quot; .. target, false)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^tat (\w+) (\w+) (torso|head|left arm|right arm|left leg|right leg)$</regex>
+            </Alias>
+            <Alias isActive="no" isFolder="no">
+                <name>Offer Corpses</name>
+                <script>if cd.player.name == &quot;Lin&quot; then
+	sendStack(&quot;sac corpses&quot;, &quot;offerings show&quot;)
+else
+	sendStack(&quot;offer corpses&quot;, &quot;offerings show&quot;)
+end</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^of$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>Bag/Pack Interaction</name>
+                <script>local dir = matches[2]
+local bag = matches[3]
+local item = matches[4]
+
+if bag == &quot;b&quot; then bag = &quot;bag&quot;
+elseif bag == &quot;p&quot; then bag = &quot;pack&quot;
+elseif bag == &quot;pp&quot; then bag = &quot;pouch&quot;
+end
+
+if dir == &quot;in&quot; then
+	send(&quot;put &quot; .. item .. &quot; in &quot; .. bag, false)
+elseif dir == &quot;out&quot; then
+	send(&quot;take &quot; .. item .. &quot; from &quot; .. bag, false)
+end</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^(in|out)(b|p|pp) (.+)$</regex>
+            </Alias>
+            <Alias isActive="no" isFolder="no">
+                <name>Context Actions</name>
+                <script>local num = tonumber(matches[2])
+
+if not cd.actions[num] then
+	send(matches[1], false)
+	return
+end
+
+send(cd.actions[num].command, false)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^(\d+)$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>Currency Reports</name>
+                <script>local reports = {
+	[&quot;c&quot;] = &quot;credit&quot;,
+	[&quot;i&quot;] = &quot;ironcoin&quot;,
+	[&quot;cu&quot;] = &quot;currency&quot;,
+}
+
+send(reports[matches[2]] .. &quot; report&quot;, false)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^(c|i|cu)r$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>Housewho</name>
+                <script>send(&quot;housewho&quot;, false)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^hw$</regex>
+            </Alias>
+            <Alias isActive="yes" isFolder="no">
+                <name>Godfeelings</name>
+                <script>send(&quot;godfeelings&quot;, false)</script>
+                <command></command>
+                <packageName></packageName>
+                <regex>^gf$</regex>
+            </Alias>
+        </AliasGroup>
+    </AliasPackage>
+    <ActionPackage/>
+    <ScriptPackage>
+        <ScriptGroup isActive="yes" isFolder="yes">
+            <name>System Setup</name>
+            <packageName></packageName>
+            <script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+            <eventHandlerList/>
+            <Script isActive="yes" isFolder="no">
+                <name>Initialization</name>
+                <packageName></packageName>
+                <script>-- Mudlet configuration.
+mudlet = mudlet or {}
+mudlet.mapper_script = true
+
+setConsoleBufferSize(&quot;main&quot;, 1000000, 1000)
+
+-- Tools to govern the setup of Godspeaker at its lowest level. Establishes the
+-- presence of all required folders, and loads any scripts located in 'scripts'
+local slash = (string.char(getMudletHomeDir():byte()) == &quot;/&quot;) and &quot;/&quot; or &quot;\\&quot;
+local path = getMudletHomeDir()
+local profiles = path .. slash .. &quot;current&quot;
+local scripts = path .. slash .. &quot;scripts&quot;
+
+isDirectory = function (d)
+	if lfs.attributes(d) ~= nil and lfs.attributes(d).mode == &quot;directory&quot; then
+		return true
+	end
+	
+	return false
+end
+
+-- Ensure the primary scripts folder is installed, or create it if not.
+CheckForScriptsFolder = function ()
+	if isDirectory(scripts) then
+		return
+	end
+	
+	local origin_dir = lfs.currentdir()
+	lfs.chdir(path)
+	lfs.mkdir(&quot;scripts&quot;)
+	lfs.chdir(origin_dir)
+end
+
+-- Handler to load files dynamically.
+LoadScriptFile = function (f)
+	if isDirectory(f) then
+		return
+	end
+	
+	if not f:match(&quot;^.+%.lua$&quot;) then
+		return
+	end
+	
+	success, err = pcall(dofile, scripts .. slash .. f)
+	
+	if success ~= true then
+		notify(&quot;&lt;a_green&gt;LoadScriptFile()&lt;a_darkgrey&gt;: &lt;a_red&gt;&quot; .. err)
+		return
+	end
+	
+	loadedScripts[script_file] = {name = script_name, desc = script_desc}
+	notify(&quot;Loaded &lt;forest_green&gt;&quot; .. f .. &quot; &lt;a_grey&gt;successfully!&quot;)
+end
+
+-- Load any .lua files found in the scripts folder.
+LoadFromScriptsFolder = function ()
+	CheckForScriptsFolder()
+	
+	if not isDirectory(scripts) then
+		error(&quot;LoadFromScriptsFolder(): Unable to find 'scripts' folder in profile directory.&quot;)
+		return
+	end
+	
+	loadedScripts = {}
+	for file in lfs.dir(scripts) do
+		LoadScriptFile(file)
+	end
+end</script>
+                <eventHandlerList/>
+            </Script>
+            <Script isActive="yes" isFolder="no">
+                <name>System Information</name>
+                <packageName></packageName>
+                <script>gs = gs or {}
+
+gs.version = &quot;0.1&quot;
+gs.name = &quot;Godspeaker&quot;
+gs.mudlet_version = &quot;3.4.0&quot;</script>
+                <eventHandlerList/>
+            </Script>
+            <Script isActive="yes" isFolder="no">
+                <name>System Update and Synchronization</name>
+                <packageName></packageName>
+                <script>-- Called shortly after startup, and once an hour thereafter to check for updates
+-- to the main system. Also manages the updating of code from the main Github repo.
+local slash = (string.char(getMudletHomeDir():byte()) == &quot;/&quot;) and &quot;/&quot; or &quot;\\&quot;
+local path = getMudletHomeDir()
+local profiles = path .. slash .. &quot;current&quot;
+local distro = path .. slash .. &quot;distro&quot;
+
+-- Create the &quot;distro&quot; folder if it doesn't already exist.
+CheckForDistroFolder = function ()
+	if lfs.attributes(distro) ~= nil and lfs.attributes(distro).mode == &quot;directory&quot; then
+		return
+	end
+	
+	local origin_dir = lfs.currentdir()
+	lfs.chdir(path)
+	lfs.mkdir(&quot;distro&quot;)
+	lfs.chdir(origin_dir)
+end
+
+-- Find the most recent profile .xml.
+GetNewestProfile = function ()
+	if lfs.attributes(profiles) == nil then
+		return
+	end
+	
+	local profile_table = {}
+
+	-- Collect files in the profile folder and store their modification date.
+	for filename in lfs.dir(profiles) do
+		if filename ~= &quot;.&quot; and filename ~= &quot;..&quot; then
+			profile_table[#profile_table + 1] = {name = filename, last_mod = lfs.attributes(profiles .. slash .. filename, &quot;modification&quot;)}
+		end
+	end
+
+	-- Sort these files by newest to oldest.
+	table.sort(profile_table, function (a, b) return b.last_mod &lt; a.last_mod end)
+
+	return profile_table[1]
+end
+
+-- Copy the newest profile and send it to the folder containing the repo.</script>
+                <eventHandlerList/>
+            </Script>
+            <Script isActive="yes" isFolder="no">
+                <name>Lua Library Extensions</name>
+                <packageName></packageName>
+                <script>-- Extended, MUD-oriented functionality tacked on to the default Lua methods.
+-- In most cases (read: anything not involving tables), will work just like
+-- the original functions, eg. myvariable:jright()
+
+-- String
+
+getmetatable(&quot;&quot;).__mod = function(a, b)
+	if not b then
+		return a
+  elseif type(b) == &quot;table&quot; then
+    return string.format(a, unpack(b))
+  else
+    return string.format(a, b)
+  end
+end
+
+local noTitleWords = {
+	&quot;a&quot;, &quot;an&quot;, &quot;the&quot;, &quot;and&quot;, &quot;of&quot;, &quot;in&quot;
+}
+
+string.title = function (str)
+	if type(str) == &quot;string&quot; then
+		str = str:gsub(&quot;([a-zA-Z']+)&quot;, function (word)
+			if table.contains(noTitleWords, word) == false or word == str:match(&quot;^%w+&quot;) then
+				word = string.upper(word:sub(1, 1)) .. string.lower(word:sub(2, -1))
+				return word
+			end
+		end)
+		return str
+	else
+	return str
+	end
+end
+
+string.right = function (str)
+	str = tostring(str)
+	return string.rep(&quot; &quot;, cd.sys.wrapWidth - string.len(str)) .. str
+end
+
+string.center = function (str)
+	str = tostring(str)
+	return string.rep(&quot; &quot;, (cd.sys.wrapWidth / 2) - math.round(string.len(str) / 2)) .. str
+end
+
+string.trim = function (str)
+	str = tostring(str)
+	return str:gsub(&quot;^%s*(.-)%s*$&quot;, &quot;%1&quot;)
+end
+
+string.space = function (x)
+	x = x or 0
+	return string.rep(&quot; &quot;, x)
+end
+
+string.truncate = function (str, n)
+	str = tostring(str)
+
+	if str:len() &gt; n then
+		return str:sub(1, n - 3) .. &quot;...&quot;
+	else
+		return str
+	end
+end
+
+string.wrap = function (str, limit, indent, indent1, tail)
+	indent = indent or &quot;&quot;
+	indent1 = indent1 or indent
+	limit = limit or cd.sys.wrapWidth
+	tail = tail or &quot;&quot;
+
+	local here = 1 - #indent1
+	return indent1 .. str:gsub(&quot;(%s+)()(%S+)()&quot;, function(sp, st, word, fi)
+		if fi - here &gt; limit then
+			here = st - #indent
+
+			return &quot;\n&quot; .. indent .. word
+		end
+	end)
+end
+
+string.wrap2 = function(str, maxLen, ind, dec)
+	-- str: The message.
+	-- maxLen: Column the message can write to.
+	-- ind: How many spaces to indent the message by.
+	-- dec: Decoration. Should be a string only.
+
+	maxLen = maxLen or 72
+	ind = ind or 0
+	dec = dec or &quot;&quot;
+	local endDec = dec
+	if dec == &quot;[&quot; then endDec = &quot;]&quot;
+		elseif dec == &quot;\(&quot; then endDec = &quot;\)&quot;
+		elseif dec == &quot;\&lt;&quot; then endDec = &quot;\&gt;&quot;
+		elseif dec == &quot;\{&quot; then endDec = &quot;\}&quot;
+	end
+
+	local decSpace = ind - (dec:len() + 1)
+	if decSpace &lt; 1 then decSpace = 1 end
+
+	-- Output is a table into which lines of text are stored.
+	local output = {
+		[1] = &quot;&quot;
+	}
+
+	-- Break the string apart.
+	str = str:split(&quot; &quot;)
+
+	-- Create the head of the string.
+	if dec ~= &quot;&quot; then
+		table.insert(str, 1, string.space(decSpace) .. dec .. &quot; &quot;)
+	elseif ind == 0 then
+		table.insert(str, 1, &quot;&quot;)
+	else
+		table.insert(str, 1, string.space(ind))
+	end
+
+	-- Form lines based on string length.
+	local length = 0
+	local line = 1
+	for i, txt in ipairs(str) do
+		local l = txt:len()
+		if i &gt; 2 then l = l + 1 end -- To account for the space.
+		length = length + l
+		if length &lt;= maxLen then
+			if i &gt; 2 then
+				output[line] = output[line] .. &quot; &quot; .. txt
+			else
+				output[line] = output[line] .. txt
+			end
+		else
+			-- New line.
+			length = l + ind
+			line = line + 1
+			output[line] = string.space(ind) .. txt
+		end
+	end
+
+	-- Put the end decoration on the tail.
+	if endDec ~= &quot;&quot; then
+		output[line] = output[line] .. string.space(maxLen - string.len(output[line])) .. endDec
+	end
+
+	return table.concat(output, &quot;\n&quot;)
+end
+
+string.jleft = function (str, amt)
+	str = tostring(str)
+
+	if not str then error(&quot;No string passed to string.jleft().&quot;) end
+	if not amt or amt &lt; 0 then amt = 0 end
+
+	return str .. string.rep(&quot; &quot;, amt - str:len())
+end
+
+string.jright = function (str, amt)
+	str = tostring(str)
+
+	if not str then error(&quot;No string passed to string.jright().&quot;) end
+	if not amt or amt &lt; 0 then amt = 0 end
+
+	return string.rep(&quot; &quot;, amt - str:len()) .. str
+end
+
+string.jcenter = function (str, amt)
+	str = tostring(str)
+
+	if not str then error(&quot;No string passed to string.jright().&quot;) end
+	if not amt or amt &lt; 0 then amt = 0 end
+
+	local space = amt - str:len()
+	local cut1 = math.round(space / 2)
+	local cut2 = space - cut1
+
+	return string.rep(&quot; &quot;, cut1) .. str .. string.rep(&quot; &quot;, cut2)
+end
+
+-- Table
+
+table.shuffle = function (t)
+	assert(t, &quot;table.shuffle() expected a table, got nil&quot;)
+	local newTable = t
+	local iterations = #newTable
+	local j
+    
+	for i = iterations, 2, -1 do
+		j = math.random(i)
+		newTable[i], newTable[j] = newTable[j], newTable[i]
+	end
+
+	return newTable
+end
+
+pairsByKeys = function (t, f)
+	local a = {}
+
+	for n in pairs(t) do
+		table.insert(a, n)
+	end
+
+	table.sort(a, f)
+	local i = 0
+	local iter = function ()
+		i = i + 1
+		if a[i] == nil then
+			return nil
+		else
+			return a[i], t[a[i]]
+		end
+	end
+
+	return iter
+end
+
+table.sentence = function (t)
+	assert(t, &quot;table.sentence() expected a table, got nil.&quot;)
+
+	local table_string = &quot;&quot;
+
+	if #t == 0 then return &quot;&quot; end
+	if #t == 1 then return t[1] end
+
+	for i = 1, #t do
+		local append = &quot; &quot;
+
+		if #t &gt; 2 then append = &quot;,&quot; .. append end
+		if i == #t then append = append .. &quot;and &quot; end
+		if i ~= 1 then table_string = table_string .. append end
+
+		table_string = table_string .. t[i]
+	end
+
+	return table_string
+end
+
+-- Math
+
+math.round = function (num, idp)
+	local mult = 10 ^ (idp or 0)
+	return math.floor(num * mult + 0.5) / mult
+end</script>
+                <eventHandlerList/>
+            </Script>
+            <Script isActive="yes" isFolder="no">
+                <name>Mudlet Extensions</name>
+                <packageName></packageName>
+                <script>-- Standard MU* colors.
+color_table.a_darkred = {128, 0, 0}
+color_table.a_darkgreen = {0, 179, 0}
+color_table.a_brown = {128, 128, 0}
+color_table.a_darkblue = {0, 0, 128}
+color_table.a_darkmagenta = {128, 0, 128}
+color_table.a_darkcyan = {0, 128, 128}
+color_table.a_grey = {192, 192, 192}
+color_table.a_darkgrey = {128, 128, 128}
+color_table.a_red = {255, 0, 0}
+color_table.a_green = {0, 255, 0}
+color_table.a_yellow = {255, 255, 0}
+color_table.a_blue = {0, 85, 255}
+color_table.a_magenta = {255, 0, 255}
+color_table.a_cyan = {0, 255, 255}
+color_table.a_white = {255, 255, 255}
+
+-- Very dark colors.
+color_table.dead_grey = {18, 27, 27}
+color_table.dead_brown = {34, 23, 6}
+color_table.dead_green = {0, 51, 0}
+color_table.dead_red = {51, 0, 0}
+color_table.dead_blue = {0, 0, 51}
+color_table.dead_yellow = {34, 34, 0}
+color_table.dead_magenta = {34, 6, 34}
+color_table.dead_cyan = {6, 34, 34}</script>
+                <eventHandlerList/>
+            </Script>
+            <Script isActive="yes" isFolder="no">
+                <name>Displays and Information</name>
+                <packageName></packageName>
+                <script>debugEcho = function (str, token)
+	token = token or &quot;D&quot;
+	if debugMode == true then
+		cecho(&quot;\n&lt;dim_gray&gt;\&lt;&lt;yellow&gt;&quot; .. token .. &quot;&lt;dim_gray&gt;\&gt; &lt;grey&gt;&quot; .. str)
+	end
+end
+
+notify = function (str, ...)
+	local lines = {...}
+	local output = &quot;&lt;a_darkcyan&gt;&quot; .. gs.name .. &quot; &lt;a_darkgrey&gt;| &lt;a_grey&gt;&quot; .. str .. &quot;\n&quot;
+
+	for i = 1, #lines do
+		output = output .. string.space(gs.name:len() + 3) .. lines[i] .. &quot;\n&quot;
+	end
+
+	cecho(output)
+end</script>
+                <eventHandlerList/>
+            </Script>
+            <Script isActive="yes" isFolder="no">
+                <name>Deleting Old Profiles</name>
+                <packageName></packageName>
+                <script>-- From the standard Mudlet library.
+
+function deleteOldProfiles(keepdays_arg, delete_maps)
+
+--[[
+	Deletes old profiles/maps in the &quot;current&quot;/&quot;map&quot; folders of the Mudlet home directory.
+	The following files are NOT deleted:
+	- Files newer than the amount of days specified as an argument to deleteOldProfiles(), or 31 days if not specified.	
+	- One file for every month before that. Specifically: The first available file of every month prior to this.
+	Setting the second argument to true will delete maps instead of profiles. (e.g. deleteOldProfiles(10, true))
+--]]
+
+	local keepdays = tonumber(keepdays_arg) or 31
+	local profile_table = {}
+	local used_last_mod_months = {}
+	local slash = (string.char(getMudletHomeDir():byte()) == &quot;/&quot;) and &quot;/&quot; or &quot;\\&quot;
+	local dirpath = getMudletHomeDir()..slash..(delete_maps and &quot;map&quot; or &quot;current&quot;)
+	local delnum = 0
+
+	-- Traverse the profiles folder and create a table of files:
+	for filename in lfs.dir(dirpath) do
+		if filename~=&quot;.&quot; and filename~=&quot;..&quot; then
+			profile_table[#profile_table+1] = {name = filename, last_mod = lfs.attributes(dirpath..slash..filename, &quot;modification&quot;)}
+		end
+	end
+
+	-- Sort the table according to last modification date from old to new:
+	table.sort(profile_table, function (a,b) return a.last_mod &lt; b.last_mod end)
+
+	echo(string.format(&quot;\nDeleting old %s. Files newer than %d days and one profile for every month before that will be kept.&quot;, delete_maps and &quot;maps&quot; or &quot;profiles&quot;, keepdays))
+	for i,v in ipairs(profile_table) do
+		local days = math.floor(os.difftime(os.time(), v.last_mod)/86400)
+		local last_mod_month = os.date(&quot;%Y/%m&quot;, v.last_mod)
+		if days &gt; keepdays then
+			-- For profiles older than X days, check if we already kept a table for this month:
+			if not table.contains(used_last_mod_months, last_mod_month) then
+				-- If not, do nothing and mark this month as &quot;kept&quot;.
+				used_last_mod_months[#used_last_mod_months+1] = last_mod_month
+			else
+				-- Otherwise remove the file:
+				local success, errorstring = os.remove(dirpath..slash..v.name)
+				if success then
+					delnum = delnum + 1
+				else
+					cecho(&quot;\n&lt;red&gt;ERROR: &quot;..errorstring)
+				end
+			end
+		end
+	end
+	echo(string.format(&quot;\nDeletion complete. %d/%d files were removed successfully.&quot;, delnum, #profile_table))
+end
+</script>
+                <eventHandlerList/>
+            </Script>
+        </ScriptGroup>
+        <ScriptGroup isActive="yes" isFolder="yes">
+            <name>Misc.</name>
+            <packageName></packageName>
+            <script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+            <eventHandlerList/>
+            <Script isActive="yes" isFolder="no">
+                <name>GMCP Request Hooks</name>
+                <packageName></packageName>
+                <script>function refreshInventory()
+	sendGMCP(&quot;Char.Items.Inv&quot;)
+	send(&quot; &quot;)
+end
+
+function refreshPlayers()
+	sendGMCP(&quot;Comm.Channel.Players&quot;)
+	send(&quot; &quot;)
+end
+
+function refreshCache()
+	sendGMCP(&quot;IRE.Rift.Request&quot;)
+	send(&quot; &quot;)
+end
+
+function supportsCache()
+	sendGMCP(&quot;core.supports.add \[\&quot;IRE.Rift 1\&quot;\]&quot;)
+	send(&quot; &quot;)
+end</script>
+                <eventHandlerList/>
+            </Script>
+        </ScriptGroup>
+        <ScriptGroup isActive="yes" isFolder="yes">
+            <name>Events</name>
+            <packageName></packageName>
+            <script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+            <eventHandlerList/>
+            <ScriptGroup isActive="yes" isFolder="yes">
+                <name>Mudlet</name>
+                <packageName></packageName>
+                <script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+                <eventHandlerList/>
+                <Script isActive="yes" isFolder="no">
+                    <name>handleSystemEvents</name>
+                    <packageName></packageName>
+                    <script>local SysLoadHandler = function ()
+	LoadFromScriptsFolder()
+end
+
+local SysExitHandler = function ()
+end
+
+local SysDownloadDoneHandler = function (file)
+end
+
+local SysDownloadErrorHandler = function (err)
+end
+
+local SysConnectionHandler = function ()
+end
+
+local SysDisconnectionHandler = function ()
+end
+
+local SysProtocolDisabledHandler = function (protocol)
+end
+
+local SysProtocolEnabledHandler = function (protocol)
+end
+
+local SysDataSendRequestHandler = function (input)
+	-- Reminder: denyCurrentSend() will prevent the input from going through.
+end
+
+handleSystemEvents = function (e, ...)
+	debugEcho(&quot;Mudlet raised &quot; .. e .. &quot;.&quot;)
+	if e == &quot;sysLoadEvent&quot; then
+		SysLoadHandler(...)
+	elseif e == &quot;sysExitEvent&quot; then
+		SysExitHandler(...)
+	elseif e == &quot;sysDownloadDone&quot; then
+		SysDownloadDoneHandler(...)
+	elseif e == &quot;sysDownloadError&quot; then
+		SysDownloadErrorHandler(...)
+	elseif e == &quot;sysConnectionEvent&quot; then
+		SysConnectionHandler(...)
+	elseif e == &quot;sysDisconnectionEvent&quot; then
+		SysDisconnectionHandler(...)
+	elseif e == &quot;sysProtocolDisabled&quot; then
+		SysProtocolDisabledHandler(...)
+	elseif e == &quot;sysProtocolEnabled&quot; then
+		SysProtocolEnabledHandler(...)
+	elseif e == &quot;sysDataSendRequest&quot; then
+		SysDataSendRequestHandler(...)
+	end
+end</script>
+                    <eventHandlerList>
+                        <string>sysLoadEvent</string>
+                        <string>sysExitEvent</string>
+                        <string>sysDownloadDone</string>
+                        <string>sysDownloadError</string>
+                        <string>sysConnectionEvent</string>
+                        <string>sysDisconnectionEvent</string>
+                        <string>sysProtocolDisabled</string>
+                        <string>sysProtocolEnabled</string>
+                        <string>sysDataSendRequest</string>
+                    </eventHandlerList>
+                </Script>
+                <Script isActive="yes" isFolder="no">
+                    <name>handleMapperEvents</name>
+                    <packageName></packageName>
+                    <script>local MapOpenHandler = function ()
+end
+
+local SysManualLocationSetHandler = function (room)
+end
+
+local SysMapDownloadHandler = function ()
+end
+
+handleMapperEvents = function (e, ...)
+	debugEcho(&quot;Mudlet raised &quot; .. e .. &quot;.&quot;)
+	if e == &quot;mapOpenEvent&quot; then
+		MapOpenHandler(...)
+	elseif e == &quot;sysManualLocationSetEvent&quot; then
+		SysManualLocationSetHandler(...)
+	elseif e == &quot;sysMapDownloadEvent&quot; then
+		SysMapDownloadHandler(...)
+	end
+end</script>
+                    <eventHandlerList>
+                        <string>mapOpenEvent</string>
+                        <string>sysManualLocationSetEvent</string>
+                        <string>sysMapDownloadEvent</string>
+                    </eventHandlerList>
+                </Script>
+                <Script isActive="yes" isFolder="no">
+                    <name>handleWindowEvents</name>
+                    <packageName></packageName>
+                    <script>local SysWindowResizeHandler = function (x, y)
+end
+
+local SysWindowMousePressHandler = function (element, x, y)
+end
+
+local SysWindowMouseReleaseHandler = function (element, x, y)
+end
+
+handleWindowEvents = function (e, ...)
+	debugEcho(&quot;Mudlet raised &quot; .. e .. &quot;.&quot;)
+	if e == &quot;sysWindowResizeEvent&quot; then
+		SysWindowResizeHandler(...)
+	elseif e == &quot;sysWindowMousePressEvent&quot; then
+		SysWindowMousePressHandler(...)
+	elseif e == &quot;sysWindowMouseReleaseEvent&quot; then
+		SysWindowMouseReleaseHandler(...)
+	end
+end</script>
+                    <eventHandlerList>
+                        <string>sysWindowResizeEvent</string>
+                        <string>sysWindowMousePressEvent</string>
+                        <string>sysWindowMouseReleaseEvent</string>
+                    </eventHandlerList>
+                </Script>
+                <Script isActive="yes" isFolder="no">
+                    <name>handleIRCEvents</name>
+                    <packageName></packageName>
+                    <script>local SysIRCMessageHandler = function (sender, target, message)
+end
+
+handleIRCEvents = function (e, ...)
+	debugEcho(&quot;Mudlet raised &quot; .. e .. &quot;.&quot;)
+	if e == &quot;sysIrcMessage&quot; then
+		SysIRCMessageHandler(...)
+	end
+end</script>
+                    <eventHandlerList>
+                        <string>sysIrcMessage</string>
+                    </eventHandlerList>
+                </Script>
+                <Script isActive="yes" isFolder="no">
+                    <name>handleMiscEvents</name>
+                    <packageName></packageName>
+                    <script>local SysTelnetHandler = function (telnet_type, option, message)
+end
+
+local SysSoundFinishedHandler = function (file, path)
+end
+
+handleMiscEvents = function (e, ...)
+	debugEcho(&quot;Mudlet raised &quot; .. e .. &quot;.&quot;)
+	if e == &quot;sysTelnetEvent&quot; then
+		SysTelnetHandler(...)
+	elseif e == &quot;sysSoundFinished&quot; then
+		SysSoundFinishedHandler(...)
+	end
+end</script>
+                    <eventHandlerList>
+                        <string>sysTelnetEvent</string>
+                        <string>sysSoundFinished</string>
+                    </eventHandlerList>
+                </Script>
+                <Script isActive="yes" isFolder="no">
+                    <name>handlePackageEvents</name>
+                    <packageName></packageName>
+                    <script>local SysInstallHandler = function (object)
+end
+
+local SysUninstallHandler = function (object)
+end
+
+local SysInstallPackageHandler = function (package, file)
+end
+
+local SysInstallModuleHandler = function (module, file)
+end
+
+local SysSyncInstallModuleHandler = function (module, file)
+end
+
+local SysLuaInstallModuleHandler = function (module, file)
+end
+
+local SysUninstallPackageHandler = function (package)
+end
+
+local SysUninstallModuleHandler = function (module)
+end
+
+local SysSyncUninstallModuleHandler = function (module)
+end
+
+local SysLuaUninstallModuleHandler = function (module)
+end
+
+
+handlePackageEvents = function (e, ...)
+	debugEcho(&quot;Mudlet raised &quot; .. e .. &quot;.&quot;)
+	if e == &quot;sysInstall&quot; then
+		SysInstallHandler(...)
+	elseif e == &quot;sysUninstall&quot; then
+		SysUninstallHandler(...)
+	elseif e == &quot;sysInstallPackage&quot; then
+		SysInstallPackageHandler(...)
+	elseif e == &quot;sysInstallModule&quot; then
+		SysInstallModuleHandler(...)
+	elseif e == &quot;sysSyncInstallModule&quot; then
+		SysSyncInstallModuleHandler(...)
+	elseif e == &quot;sysLuaInstallModule&quot; then
+		SysLuaInstallModuleHandler(...)
+	elseif e == &quot;sysUninstallPackage&quot; then
+		SysUninstallPackageHandler(...)
+	elseif e == &quot;sysUninstallModule&quot; then
+		SysUninstallModuleHandler(...)
+	elseif e == &quot;sysSyncUninstallModule&quot; then
+		SysSyncUninstallModuleHandler(...)
+	elseif e == &quot;sysLuaUninstallModule&quot; then
+		SysLuaUninstallModuleHandler(...)
+	end
+end</script>
+                    <eventHandlerList>
+                        <string>sysInstall</string>
+                        <string>sysUninstall</string>
+                        <string>sysInstallPackage</string>
+                        <string>sysInstallModule</string>
+                        <string>sysSyncInstallModule</string>
+                        <string>sysLuaInstallModule</string>
+                        <string>sysUninstallPackage</string>
+                        <string>sysUninstallModule</string>
+                        <string>sysSyncUninstallModule</string>
+                        <string>sysLuaUninstallModule</string>
+                    </eventHandlerList>
+                </Script>
+            </ScriptGroup>
+            <ScriptGroup isActive="yes" isFolder="yes">
+                <name>GMCP</name>
+                <packageName></packageName>
+                <script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+                <eventHandlerList/>
+            </ScriptGroup>
+            <ScriptGroup isActive="yes" isFolder="yes">
+                <name>Custom</name>
+                <packageName></packageName>
+                <script>-------------------------------------------------
+--         Put your Lua functions here.        --
+--                                             --
+-- Note that you can also use external Scripts --
+-------------------------------------------------
+</script>
+                <eventHandlerList/>
+                <Script isActive="yes" isFolder="no">
+                    <name>handlePrompt</name>
+                    <packageName></packageName>
+                    <script>local PromptHandler = function ()
+end
+
+handlePrompt = function (e, ...)
+	debugEcho(&quot;Custom event raised &quot; .. e .. &quot;.&quot;)
+	-- TO-DO: Add conditions for a 'misc prompt' event.
+	if e == &quot;prompt&quot; then
+		PromptHandler(...)
+	end
+end</script>
+                    <eventHandlerList/>
+                </Script>
+                <Script isActive="yes" isFolder="no">
+                    <name>handlePlayerMovement</name>
+                    <packageName></packageName>
+                    <script>local PlayerMovementHandler = function (dir, mod)
+	playerMove(dir, mod)
+end
+
+handlePlayerMovement = function (e, ...)
+	debugEcho(&quot;Custom event raised &quot; .. e .. &quot;.&quot;)
+	if e == &quot;player movement&quot; then
+		PlayerMovementHandler(...)
+	end
+end</script>
+                    <eventHandlerList>
+                        <string>player movement</string>
+                    </eventHandlerList>
+                </Script>
+                <Script isActive="yes" isFolder="no">
+                    <name>handleMiscGameEvents</name>
+                    <packageName></packageName>
+                    <script>local LoginHandler = function ()
+	gmod.enableModule(&quot;&quot;, &quot;IRE.Rift&quot;)
+	gmod.enableModule(&quot;&quot;, &quot;Comm.Channel&quot;)
+	gmod.enableModule(&quot;&quot;, &quot;IRE.Time&quot;)
+end
+
+handleMiscGameEvents = function (e, ...)
+	debugEcho(&quot;Custom event raised &quot; .. e .. &quot;.&quot;)
+	if e == &quot;login&quot; then
+		LoginHandler(...)
+	end
+end</script>
+                    <eventHandlerList>
+                        <string>login</string>
+                    </eventHandlerList>
+                </Script>
+            </ScriptGroup>
+        </ScriptGroup>
+    </ScriptPackage>
+    <KeyPackage>
+        <KeyGroup isActive="yes" isFolder="yes">
+            <name>Movement</name>
+            <packageName></packageName>
+            <script></script>
+            <command></command>
+            <keyCode>-1</keyCode>
+            <keyModifier>-1</keyModifier>
+            <Key isActive="yes" isFolder="no">
+                <name>LOOK</name>
+                <packageName></packageName>
+                <script>raiseEvent(&quot;player movement&quot;, &quot;look&quot;)</script>
+                <command></command>
+                <keyCode>53</keyCode>
+                <keyModifier>536870912</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>SW</name>
+                <packageName></packageName>
+                <script>raiseEvent(&quot;player movement&quot;, &quot;sw&quot;)</script>
+                <command></command>
+                <keyCode>49</keyCode>
+                <keyModifier>536870912</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>S</name>
+                <packageName></packageName>
+                <script>raiseEvent(&quot;player movement&quot;, &quot;s&quot;)</script>
+                <command></command>
+                <keyCode>50</keyCode>
+                <keyModifier>536870912</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>SE</name>
+                <packageName></packageName>
+                <script>raiseEvent(&quot;player movement&quot;, &quot;se&quot;)</script>
+                <command></command>
+                <keyCode>51</keyCode>
+                <keyModifier>536870912</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>W</name>
+                <packageName></packageName>
+                <script>raiseEvent(&quot;player movement&quot;, &quot;w&quot;)</script>
+                <command></command>
+                <keyCode>52</keyCode>
+                <keyModifier>536870912</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>E</name>
+                <packageName></packageName>
+                <script>raiseEvent(&quot;player movement&quot;, &quot;e&quot;)</script>
+                <command></command>
+                <keyCode>54</keyCode>
+                <keyModifier>536870912</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>NW</name>
+                <packageName></packageName>
+                <script>raiseEvent(&quot;player movement&quot;, &quot;nw&quot;)</script>
+                <command></command>
+                <keyCode>55</keyCode>
+                <keyModifier>536870912</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>N</name>
+                <packageName></packageName>
+                <script>raiseEvent(&quot;player movement&quot;, &quot;n&quot;)</script>
+                <command></command>
+                <keyCode>56</keyCode>
+                <keyModifier>536870912</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>NE</name>
+                <packageName></packageName>
+                <script>raiseEvent(&quot;player movement&quot;, &quot;ne&quot;)</script>
+                <command></command>
+                <keyCode>57</keyCode>
+                <keyModifier>536870912</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>UP</name>
+                <packageName></packageName>
+                <script>raiseEvent(&quot;player movement&quot;, &quot;up&quot;)</script>
+                <command></command>
+                <keyCode>45</keyCode>
+                <keyModifier>536870912</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>DN</name>
+                <packageName></packageName>
+                <script>raiseEvent(&quot;player movement&quot;, &quot;down&quot;)</script>
+                <command></command>
+                <keyCode>43</keyCode>
+                <keyModifier>536870912</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>IN</name>
+                <packageName></packageName>
+                <script>raiseEvent(&quot;player movement&quot;, &quot;in&quot;)</script>
+                <command></command>
+                <keyCode>47</keyCode>
+                <keyModifier>536870912</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>OUT</name>
+                <packageName></packageName>
+                <script>raiseEvent(&quot;player movement&quot;, &quot;out&quot;)</script>
+                <command></command>
+                <keyCode>42</keyCode>
+                <keyModifier>536870912</keyModifier>
+            </Key>
+            <Key isActive="yes" isFolder="no">
+                <name>MAP</name>
+                <packageName></packageName>
+                <script></script>
+                <command>map</command>
+                <keyCode>48</keyCode>
+                <keyModifier>536870912</keyModifier>
+            </Key>
+            <KeyGroup isActive="yes" isFolder="yes">
+                <name>CTRL Modifier</name>
+                <packageName></packageName>
+                <script></script>
+                <command></command>
+                <keyCode>-1</keyCode>
+                <keyModifier>-1</keyModifier>
+                <Key isActive="yes" isFolder="no">
+                    <name>SW</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;sw&quot;, &quot;control&quot;)</script>
+                    <command></command>
+                    <keyCode>49</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>S</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;s&quot;, &quot;control&quot;)</script>
+                    <command></command>
+                    <keyCode>50</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>SE</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;se&quot;, &quot;control&quot;)</script>
+                    <command></command>
+                    <keyCode>51</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>W</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;w&quot;, &quot;control&quot;)</script>
+                    <command></command>
+                    <keyCode>52</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>NW</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;nw&quot;, &quot;control&quot;)</script>
+                    <command></command>
+                    <keyCode>55</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>N</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;n&quot;, &quot;control&quot;)</script>
+                    <command></command>
+                    <keyCode>56</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>NE</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;ne&quot;, &quot;control&quot;)</script>
+                    <command></command>
+                    <keyCode>57</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>E</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;e&quot;, &quot;control&quot;)</script>
+                    <command></command>
+                    <keyCode>54</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>UP</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;up&quot;, &quot;control&quot;)</script>
+                    <command></command>
+                    <keyCode>45</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>DN</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;down&quot;, &quot;control&quot;)</script>
+                    <command></command>
+                    <keyCode>43</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>IN</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;in&quot;, &quot;control&quot;)</script>
+                    <command></command>
+                    <keyCode>47</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>OUT</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;out&quot;, &quot;control&quot;)</script>
+                    <command></command>
+                    <keyCode>42</keyCode>
+                    <keyModifier>603979776</keyModifier>
+                </Key>
+            </KeyGroup>
+            <KeyGroup isActive="yes" isFolder="yes">
+                <name>ALT Modifier</name>
+                <packageName></packageName>
+                <script></script>
+                <command></command>
+                <keyCode>-1</keyCode>
+                <keyModifier>-1</keyModifier>
+                <Key isActive="yes" isFolder="no">
+                    <name>SW</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;sw&quot;, &quot;alt&quot;)</script>
+                    <command></command>
+                    <keyCode>49</keyCode>
+                    <keyModifier>671088640</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>S</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;s&quot;, &quot;alt&quot;)</script>
+                    <command></command>
+                    <keyCode>50</keyCode>
+                    <keyModifier>671088640</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>SE</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;se&quot;, &quot;alt&quot;)</script>
+                    <command></command>
+                    <keyCode>51</keyCode>
+                    <keyModifier>671088640</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>W</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;w&quot;, &quot;alt&quot;)</script>
+                    <command></command>
+                    <keyCode>52</keyCode>
+                    <keyModifier>671088640</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>NW</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;nw&quot;, &quot;alt&quot;)</script>
+                    <command></command>
+                    <keyCode>55</keyCode>
+                    <keyModifier>671088640</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>N</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;n&quot;, &quot;alt&quot;)</script>
+                    <command></command>
+                    <keyCode>56</keyCode>
+                    <keyModifier>671088640</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>NE</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;ne&quot;, &quot;alt&quot;)</script>
+                    <command></command>
+                    <keyCode>57</keyCode>
+                    <keyModifier>671088640</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>E</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;e&quot;, &quot;alt&quot;)</script>
+                    <command></command>
+                    <keyCode>54</keyCode>
+                    <keyModifier>671088640</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>UP</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;up&quot;, &quot;alt&quot;)</script>
+                    <command></command>
+                    <keyCode>45</keyCode>
+                    <keyModifier>671088640</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>DN</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;down&quot;, &quot;alt&quot;)</script>
+                    <command></command>
+                    <keyCode>43</keyCode>
+                    <keyModifier>671088640</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>IN</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;in&quot;, &quot;alt&quot;)</script>
+                    <command></command>
+                    <keyCode>47</keyCode>
+                    <keyModifier>671088640</keyModifier>
+                </Key>
+                <Key isActive="yes" isFolder="no">
+                    <name>OUT</name>
+                    <packageName></packageName>
+                    <script>raiseEvent(&quot;player movement&quot;, &quot;out&quot;, &quot;alt&quot;)</script>
+                    <command></command>
+                    <keyCode>42</keyCode>
+                    <keyModifier>671088640</keyModifier>
+                </Key>
+            </KeyGroup>
+        </KeyGroup>
+    </KeyPackage>
+    <VariablePackage>
+        <HiddenVariables/>
+    </VariablePackage>
+</MudletPackage>
