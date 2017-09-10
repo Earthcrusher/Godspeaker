@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE MudletPackage>
+<MudletPackage version="1.001">
+    <HostPackage>
+        <Host autoClearCommandLineAfterSend="no" disableAutoCompletion="no" printCommand="no" USE_IRE_DRIVER_BUGFIX="yes" mUSE_FORCE_LF_AFTER_PROMPT="yes" mUSE_UNIX_EOL="no" mNoAntiAlias="no" mEchoLuaErrors="no" mRawStreamDump="no" mIsLoggingTimestamps="no" mAlertOnNewData="yes" mFORCE_NO_COMPRESSION="no" mFORCE_GA_OFF="no" mFORCE_SAVE_ON_EXIT="no" mEnableGMCP="yes" mEnableMSDP="no" mMapStrongHighlight="no" mLogStatus="no" mEnableSpellCheck="yes" mShowInfo="no" mAcceptServerGUI="yes" mMapperUseAntiAlias="yes" mFORCE_MXP_NEGOTIATION_OFF="no" mRoomSize="0.5" mLineSize="10.0" mBubbleMode="no" mShowRoomIDs="no" mShowPanel="yes" mHaveMapperScript="no" mEditorTheme="Mudlet" mEditorThemeFile="Mudlet.tmTheme" mThemePreviewItemID="43" mThemePreviewType="alias" mDoubleClickIgnore="'&quot;">
+            <name>Godspeaker</name>
+            <mInstalledPackages>
+                <string>mudlet-mapper</string>
+                <string>deleteOldProfiles</string>
+                <string>echo</string>
+                <string>run-lua-code-v4</string>
+            </mInstalledPackages>
+            <url>aetolia.com</url>
+            <serverPackageName>nothing</serverPackageName>
+            <serverPackageVersion>-1</serverPackageVersion>
+            <port>23</port>
+            <borderTopHeight>0</borderTopHeight>
+            <borderBottomHeight>0</borderBottomHeight>
+            <borderLeftWidth>0</borderLeftWidth>
+            <borderRightWidth>0</borderRightWidth>
+            <wrapAt>100</wrapAt>
+            <wrapIndentCount>0</wrapIndentCount>
+            <mFgColor>#c0c0c0</mFgColor>
+            <mBgColor>#000000</mBgColor>
+            <mCommandFgColor>#717100</mCommandFgColor>
+            <mCommandBgColor>#000000</mCommandBgColor>
+            <mCommandLineFgColor>#808080</mCommandLineFgColor>
+            <mCommandLineBgColor>#000000</mCommandLineBgColor>
+            <mBlack>#000000</mBlack>
+            <mLightBlack>#808080</mLightBlack>
+            <mRed>#800000</mRed>
+            <mLightRed>#ff0000</mLightRed>
+            <mBlue>#000080</mBlue>
+            <mLightBlue>#0055ff</mLightBlue>
+            <mGreen>#008000</mGreen>
+            <mLightGreen>#00ff00</mLightGreen>
+            <mYellow>#808000</mYellow>
+            <mLightYellow>#ffff00</mLightYellow>
+            <mCyan>#008080</mCyan>
+            <mLightCyan>#00ffff</mLightCyan>
+            <mMagenta>#800080</mMagenta>
+            <mLightMagenta>#ff00ff</mLightMagenta>
+            <mWhite>#c0c0c0</mWhite>
+            <mLightWhite>#ffffff</mLightWhite>
+            <mDisplayFont>Albedi (TTF) for Windows,9,-1,5,50,0,0,0,1,0</mDisplayFont>
+            <mCommandLineFont>Bitstream Vera Sans Mono,10,-1,5,50,0,0,0,0,0</mCommandLineFont>
+            <mCommandSeparator>;;</mCommandSeparator>
+            <commandLineMinimumHeight>30</commandLineMinimumHeight>
+            <mFgColor2>#c0c0c0</mFgColor2>
+            <mBgColor2>#000000</mBgColor2>
+            <mBlack2>#000000</mBlack2>
+            <mLightBlack2>#808080</mLightBlack2>
+            <mRed2>#800000</mRed2>
+            <mLightRed2>#ff0000</mLightRed2>
+            <mBlue2>#000080</mBlue2>
+            <mLightBlue2>#0055ff</mLightBlue2>
+            <mGreen2>#008000</mGreen2>
+            <mLightGreen2>#00ff00</mLightGreen2>
+            <mYellow2>#808000</mYellow2>
+            <mLightYellow2>#ffff00</mLightYellow2>
+            <mCyan2>#008080</mCyan2>
+            <mLightCyan2>#00ffff</mLightCyan2>
+            <mMagenta2>#800080</mMagenta2>
+            <mLightMagenta2>#ff00ff</mLightMagenta2>
+            <mWhite2>#c0c0c0</mWhite2>
+            <mLightWhite2>#ffffff</mLightWhite2>
+            <mSpellDic>en_US</mSpellDic>
+            <mLineSize>10.0</mLineSize>
+            <mRoomSize>0.5</mRoomSize>
+        </Host>
+    </HostPackage>
+    <TriggerPackage/>
+    <TimerPackage/>
+    <AliasPackage/>
+    <ActionPackage/>
+    <ScriptPackage>
+        <Script isActive="yes" isFolder="no">
+            <name>System Update and Synchronization</name>
+            <packageName></packageName>
+            <script>-- Called shortly after startup, and once an hour thereafter to check for updates
+-- to the main system. Also manages the updating of code from the main Github repo.
+local slash = (string.char(getMudletHomeDir():byte()) == &quot;/&quot;) and &quot;/&quot; or &quot;\\&quot;
+local path = getMudletHomeDir()
+local profiles = path .. slash .. &quot;current&quot;
+local distro = path .. slash .. &quot;distro&quot;
+
+-- Create the &quot;distro&quot; folder if it doesn't already exist.
+CheckForDistroFolder = function ()
+	if lfs.attributes(distro) ~= nil and lfs.attributes(distro).mode == &quot;directory&quot; then
+		return
+	end
+	
+	local origin_dir = lfs.currentdir()
+	lfs.chdir(path)
+	lfs.mkdir(&quot;distro&quot;)
+	lfs.chdir(origin_dir)
+end
+
+-- Find the most recent profile .xml.
+GetNewestProfile = function ()
+	if lfs.attributes(profiles) == nil then
+		return
+	end
+	
+	local profile_table = {}
+
+	-- Collect files in the profile folder and store their modification date.
+	for filename in lfs.dir(profiles) do
+		if filename ~= &quot;.&quot; and filename ~= &quot;..&quot; then
+			profile_table[#profile_table + 1] = {name = filename, last_mod = lfs.attributes(profiles .. slash .. filename, &quot;modification&quot;)}
+		end
+	end
+
+	-- Sort these files by newest to oldest.
+	table.sort(profile_table, function (a, b) return b.last_mod &lt; a.last_mod end)
+
+	return profile_table[1]
+end
+
+-- Copy the newest profile and send it to the folder containing the repo.</script>
+            <eventHandlerList/>
+        </Script>
+    </ScriptPackage>
+    <KeyPackage/>
+    <VariablePackage>
+        <HiddenVariables/>
+    </VariablePackage>
+</MudletPackage>
